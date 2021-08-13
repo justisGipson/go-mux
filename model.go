@@ -12,21 +12,21 @@ type product struct {
 }
 
 func (p *product) getProduct(db *sql.DB) error {
-	return errors.New("Not implemented")
+	return errors.New("not implemented")
 }
 
 func (p *product) updateProduct(db *sql.DB) error {
-	return errors.New("Not implemented")
+	return errors.New("not implemented")
 }
 
 func (p *product) deleteProduct(db *sql.DB) error {
-	return errors.New("Not implemented")
+	return errors.New("not implemented")
 }
 
 func (p *product) createProduct(db *sql.DB) error {
-	return errors.New("Not implemented")
+	return errors.New("not implemented")
 }
 
 func getProducts(db *sql.DB, start, count int) ([]product, error) {
-	return nil, errors.New("Not implemented")
+	return nil, errors.New("not implemented")
 }
